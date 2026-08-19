@@ -702,3 +702,74 @@ display:block;
 .offer-banner img{
   width:220px;
 }
+/* FOOTER */
+
+.footer{
+  background:#145A32;
+  color:#fff;
+  padding:60px 60px 25px;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.3fr;
+  gap:40px;
+}
+
+.brand h2{
+  color:#fff;
+  margin-bottom:15px;
+  font-size:28px;
+}
+
+.brand p{
+  color:#D8E8D8;
+  line-height:1.8;
+  font-size:15px;
+}
+
+.footer h3{
+  margin-bottom:18px;
+  color:#F8B04E;
+  font-size:18px;
+}
+
+.footer a{
+  display:block;
+  color:#E8F5E9;
+  text-decoration:none;
+  margin-bottom:10px;
+  font-size:15px;
+}
+
+.footer a:hover{
+  color:#F8B04E;
+}
+
+.footer p{
+  color:#E8F5E9;
+  font-size:15px;
+  margin-bottom:10px;
+}
+
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.15);
+  margin-top:40px;
+  padding-top:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.socials span{
+  width:38px;
+  height:38px;
+  background:rgba(255,255,255,.12);
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-left:10px;
+  font-size:18px;
+  cursor:pointer;
+}
