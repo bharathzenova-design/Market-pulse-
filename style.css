@@ -603,3 +603,102 @@ display:block;
   font-size:13px;
   font-weight:600;
 }
+/* WHY CHOOSE US */
+.why-us{
+  padding:70px 60px;
+  background:#fff;
+  text-align:center;
+}
+
+.why-us h2{
+  font-size:42px;
+  color:#145A32;
+  font-weight:700;
+}
+
+.why-us h2 span{
+  color:#F57C00;
+}
+
+.title-line{
+  width:140px;
+  height:3px;
+  background:#F57C00;
+  margin:14px auto 45px;
+  border-radius:20px;
+}
+
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:22px;
+  margin-bottom:45px;
+}
+
+.why-card{
+  background:#F7FAF0;
+  border-radius:18px;
+  padding:30px 22px;
+}
+
+.icon{
+  width:64px;
+  height:64px;
+  margin:0 auto 16px;
+  border-radius:50%;
+  background:#E8F5E9;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+}
+
+.why-card h3{
+  color:#145A32;
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+.why-card p{
+  color:#667085;
+  font-size:14px;
+  line-height:1.6;
+}
+
+/* ORANGE OFFER */
+.offer-banner{
+  background:#F57C00;
+  border-radius:22px;
+  padding:28px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  overflow:hidden;
+}
+
+.offer-text span{
+  color:#FFE8CC;
+  font-size:14px;
+  font-weight:600;
+}
+
+.offer-text h3{
+  color:#fff;
+  font-size:34px;
+  margin-top:8px;
+  max-width:360px;
+  line-height:1.2;
+}
+
+.offer-btn{
+  background:#fff;
+  color:#F57C00;
+  text-decoration:none;
+  padding:14px 28px;
+  border-radius:30px;
+  font-weight:600;
+}
+
+.offer-banner img{
+  width:220px;
+}
