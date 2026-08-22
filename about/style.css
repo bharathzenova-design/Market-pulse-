@@ -1,1 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
 
+body{
+    background:#F7FAF5;
+    color:#1E2A1F;
+}
+
+.about-hero{
+    width:100%;
+    min-height:100vh;
+    padding:80px 8%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.left{ flex:1; }
+
+.tag{
+    color:#F28C28;
+    font-weight:600;
+    letter-spacing:3px;
+    margin-bottom:18px;
+    font-size:14px;
+}
+
+h1{
+    font-size:58px;
+    line-height:1.15;
+    font-weight:700;
+    margin-bottom:24px;
+}
+
+h1 span{
+    color:#7BC043;
+}
+
+.desc{
+    font-size:18px;
+    color:#55635A;
+    line-height:1.9;
+    max-width:560px;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.right img{
+    width:100%;
+    max-width:520px;
+    border-radius:28px;
+    object-fit:cover;
+}
